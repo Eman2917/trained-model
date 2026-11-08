@@ -15,7 +15,7 @@ st.markdown("""
 model = joblib.load('water_model.pkl')
 imputer = joblib.load('imputer.pkl')
 
-st.markdown('<div class="main-header"><h1>💧 Water Potability Checker</h1><p>Slider ghumao, value set karo, CHECK dabao</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header"><h1>💧 Water Potability Checker</h1><p>Check Potability</p></div>', unsafe_allow_html=True)
 st.write("")
 
 col1, col2, col3 = st.columns(3)
